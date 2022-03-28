@@ -54,10 +54,10 @@ fields = [
     ["45","Total_Parking","SHORT","Total Parking"],
     ["122","Compliance_Overall_Status","TEXT","Compl. Status"],
     ["167","Compliance_Planning_Status","TEXT","Compl. Status: Planning"],
-	  ["168","Compliance_Engineering_Status","TEXT","Compl. Status: Engineering"],
-	  ["169","Compliance_WaterSewer_Status","TEXT","Compl. Status: Water & Sewer"],
-	  ["175","Compliance_TaxAssessor_Status","TEXT","Compl. Status: Tax Assessor"],
-	  ["176","Compliance_Bond_Status","TEXT","Compl. Status: Bond"],
+    ["168","Compliance_Engineering_Status","TEXT","Compl. Status: Engineering"],
+    ["169","Compliance_WaterSewer_Status","TEXT","Compl. Status: Water & Sewer"],
+    ["175","Compliance_TaxAssessor_Status","TEXT","Compl. Status: Tax Assessor"],
+    ["176","Compliance_Bond_Status","TEXT","Compl. Status: Bond"],
     ["62","Application_PDF","TEXT","Application"],
     ["63","Application_Plans_Eng","TEXT","Plans - Eng."],
     ["164","Application_Plans_Arch","TEXT","Plans - Arch."],
@@ -66,7 +66,7 @@ fields = [
 ]
 # removed values for security of data, necessary for proper response
 headers = {
-  	'QB-Realm-Hostname': '',
+    'QB-Realm-Hostname': '',
     'User-Agent': '',
     'Authorization': ''
 }
