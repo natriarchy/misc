@@ -3,6 +3,10 @@ import datetime
 import requests
 import sys
 
+# Script to query an online database of board records
+# Then convert to usable geojson layer
+# Allows for repeated queries to overcome response limits
+
 startTime = datetime.datetime.now()
 fields = [
     ["3","Record_ID","SHORT","QB ID"],
