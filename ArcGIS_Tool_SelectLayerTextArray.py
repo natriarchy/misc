@@ -3,6 +3,16 @@
 import json
 import arcpy
 
+"""
+ArcGIS Custom Python Toolbox
+
+Tool: Select Layer from Text Array
+
+Main purpose is to tie additional parcels that are 
+referenced by a board application or ownership record 
+to the primary parcel. Especially when the additional
+parcels are referenced in a one field as a text list.
+"""
 
 class Toolbox(object):
     def __init__(self):
