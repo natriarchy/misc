@@ -40,7 +40,9 @@ def getFirstOrLastBus(stopId, firstOrLast):
         fields="stop_id; arrival_time; service_id",
         sort_fields="arrival_time A")
     times = []
+    # Sets the value of the index of the return statement to correspond to the firstOrLast parameter 
     position = 0 if firstOrLast == "first" else -1
     for row in rows:
+        # collect the arrival times for the stop in the times array
         times.append(row.getValue("arrival_time"))
     return times[position]
