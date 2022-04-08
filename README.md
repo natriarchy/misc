@@ -1,5 +1,5 @@
 # misc
-Some Scripts I've used and keep as a reference for future work.
+Some Python scripts I've used and keep as a reference for future work.
 
 ## ArcGIS Pro Custom Python Tool: [Select Layer from Text Array](ArcGIS_Tool_SelectLayerTextArray.py)
 Main purpose is to tie additional parcels that are referenced by a board application or ownership record to the primary parcel. Especially when the additional parcels are referenced in a one field as a text list. A screenshot of the tool it generates is [here](ArcGISCustomTool.png)
