@@ -19,8 +19,8 @@ def getAverageHeadways(stopId):
         timeels = rowtime.split(":")
         rowsecs = (float(timeels[0]) * 60) + float(timeels[1]) + float(float(timeels[2]) / 60)
         times.append(rowsecs)
-    # numpy.diff is the utility we use to get the headways between bus arrivals
-    # it's used to calcalulate the difference between each element in an array and the one following it
+    # numpy.diff is doing most of the work to get the headways between bus arrivals
+    # it will quickly calculate the difference between each element in an array and the one following it
     headways = numpy.diff(times)
     # the following line just calculates the average of the headways
     return numpy.mean(headways)
