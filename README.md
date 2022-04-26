@@ -9,3 +9,6 @@ Script to query an online database (Quickbase) of internal board records Then co
 
 ## Utility Python Script: [Getting Bus Headways and First/Last Bus](ArcGIS_Script_BusAnalysis.py)
 This includes two short functions I used when analysing the bus network of Newark for the Master Plan. The first went through 800+ bus stops and calculated the mean time between bus arrivals, the second just returned the first or last bus scheduled to arrive at a station.
+
+## Utility Python Script: [Query MTA Trips for Bus-to-Subway Transders](MTA_UnlinkedTrips_Query.py)
+This was a script I put together as part of the hiring process for a position with the MTA. The script queries the MTA 2018 Travel Survey (Unlinked) then returns a new csv file with average weekday bus-subway transfers.
